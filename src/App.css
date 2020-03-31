@@ -34,25 +34,6 @@
   color: #61dafb;
 }
 
-.model-viewer {
-  height: calc(100vh - 240px);
-}
-
-.header {
-  position: absolute;
-  top: 0;
-}
-
-.toolbar {
-  height: 60px;
-  position: absolute;
-  bottom:0;
-}
-
-.btn-round {
-  border-radius: 20px;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
