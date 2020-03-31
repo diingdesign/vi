@@ -53,6 +53,21 @@ const data = [
         title: "That Tree",
         artist: "Mark Hirsch",
         model: "11"
+    },
+    {
+        title: "Automat",
+        artist: "Edward Hopper, 1927",
+        model: "12"
+    },
+    {
+        title: "Automat | Hotel Room",
+        artist: "Edward Hopper, 1927 | 1931",
+        model: "13"
+    },
+    {
+        title: "Maud Murray Dale",
+        artist: "Fernand Léger, 1935 | George Bellows, 1919",
+        model: "14"
     }
 ];
 
