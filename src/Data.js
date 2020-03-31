@@ -28,6 +28,31 @@ const data = [
         title: "Building in New York",
         artist: "",
         model: "06"
+    },
+    {
+        title: "Renshaw's Cow",
+        artist: "",
+        model: "07"
+    },
+    {
+        title: "The Red Boat",
+        artist: "Ruth and Eve Oosterman",
+        model: "08"
+    },
+    {
+        title: "Infantry",
+        artist: "Jane Alexander, 2008-2010",
+        model: "09"
+    },
+    {
+        title: "Sleepwalker",
+        artist: "Tony Matelli, 2014",
+        model: "10"
+    },
+    {
+        title: "That Tree",
+        artist: "Mark Hirsch",
+        model: "11"
     }
 ];
 
