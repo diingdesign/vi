@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
@@ -13,8 +13,8 @@ function Toolbar() {
   pageId = parseInt(pageId);
   return (
     <div className="toolbar d-flex flex-row justify-content-between w-100 px-3 align-items-center">
-      <Link to={`/vi/${pageId-1}`} role="button" className={`btn btn-primary btn-round${pageId === 1 ? " invisible" : ""}`}><i className="fas fa-arrow-left"></i></Link>
-      <Link to={`/vi/${pageId+1}`} role="button" className={`btn btn-primary btn-round${pageId === data.length ? " invisible" : ""}`}><i className="fas fa-arrow-right"></i></Link>
+      <Link to={`${pageId-1}`} role="button" className={`btn btn-primary btn-round${pageId === 1 ? " invisible" : ""}`}><i className="fas fa-arrow-left"></i></Link>
+      <Link to={`${pageId+1}`} role="button" className={`btn btn-primary btn-round${pageId === data.length ? " invisible" : ""}`}><i className="fas fa-arrow-right"></i></Link>
     </div>
   );
 }
@@ -32,7 +32,7 @@ function Header() {
 function Start() {
   return (
     <div className="container d-flex flex-row justify-content-center align-items-center init-page">
-      <a href="/vi/1" role="button" className="btn btn-light btn-lg"><i class="fas fa-eye"></i></a>
+      <Link to="1" role="button" className="btn btn-light btn-lg"><i class="fas fa-eye"></i></Link>
     </div>
   );
 }
@@ -50,10 +50,10 @@ function Page() {
     <Router>
       <div className="h-100 w-100">
         <Switch>
-          <Route exact path="/vi/">
+          <Route exact path="/">
             <Start />
           </Route>
-          <Route path="/vi/:pageId">
+          <Route path="/:pageId">
             <Header />
             <EntityViewer />
             <Toolbar />
