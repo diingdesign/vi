@@ -11,17 +11,22 @@ export const data = [
   {
     title: "As the Old Sing, So Pipe the Young",
     artist: "Jan Steen, 1668-1670",
-    model: "Astronaut"
+    model: "01"
   },
   {
     title: "The Goldfinch",
     artist: "Carel Fabritius, 1654",
-    model: "Astronaut"
+    model: "02"
   },
   {
     title: "Smiling Girl, a Courtesan, Holding an Obscene Image",
     artist: "Gerrit van Honthorst, 1625",
-    model: "Astronaut"
+    model: "03"
+  },
+  {
+    title: "Mistress and Maid",
+    artist: "Johannes Vermeer, 1667",
+    model: "04"
   }
 ];
 
@@ -30,8 +35,8 @@ function Toolbar() {
   pageId = parseInt(pageId);
   return (
     <div className="toolbar d-flex flex-row justify-content-between w-100 px-3 align-items-center">
-      <Link to={`/vi/${pageId-1}`} role="button" className={`btn btn-primary btn-round${pageId === 1 ? " invisible" : ""}`}><i class="fas fa-arrow-left"></i></Link>
-      <Link to={`/vi/${pageId+1}`} role="button" className={`btn btn-primary btn-round${pageId === data.length ? " invisible" : ""}`}><i class="fas fa-arrow-right"></i></Link>
+      <Link to={`/vi/${pageId-1}`} role="button" className={`btn btn-primary btn-round${pageId === 1 ? " invisible" : ""}`}><i className="fas fa-arrow-left"></i></Link>
+      <Link to={`/vi/${pageId+1}`} role="button" className={`btn btn-primary btn-round${pageId === data.length ? " invisible" : ""}`}><i className="fas fa-arrow-right"></i></Link>
     </div>
   );
 }
@@ -54,6 +59,14 @@ function Start() {
   );
 }
 
+function EntityViewer() {
+  var { pageId } = useParams();
+  pageId = parseInt(pageId);
+  return (
+    <model-viewer class="w-100 flex-grow-1 model-viewer" src={`${process.env.PUBLIC_URL}/assets/models/${data[pageId-1].model}.glb`} ar ar-scale="auto" camera-controls alt={data[pageId-1].title} ios-src={`${process.env.PUBLIC_URL}/assets/models/${data[pageId-1].model}.usdz`} magic-leap unstable-webxr></model-viewer>
+  );
+}
+
 function Page() {
   return (
     <Router>
@@ -64,7 +77,7 @@ function Page() {
           </Route>
           <Route path="/vi/:pageId">
             <Header />
-            <model-viewer class="w-100 flex-grow-1 model-viewer" src={`${process.env.PUBLIC_URL}/assets/models/Astronaut.glb`} ar ar-scale="auto" camera-controls alt="A 3D model of an astronaut" ios-src={`${process.env.PUBLIC_URL}/assets/models/Astronaut.usdz`} magic-leap unstable-webxr></model-viewer>
+            <EntityViewer />
             <Toolbar />
           </Route>
         </Switch>
