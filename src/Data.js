@@ -68,6 +68,41 @@ const data = [
         title: "Maud Murray Dale",
         artist: "Fernand Léger, 1935 | George Bellows, 1919",
         model: "14"
+    },
+    {
+        title: "Mrs. John Winthrop",
+        artist: "John Singleton Copley, 1773",
+        model: "15"
+    },
+    {
+        title: "George Washington | Abraham Lincoln",
+        artist: "Gilbert Stuart, 1796 | Alexander Gardner, 1865",
+        model: "16"
+    },
+    {
+        title: "Women Are Heroes",
+        artist: "JR, 2008",
+        model: "17"
+    },
+    {
+        title: "L’Ortolano (The Vegetable Gardener)",
+        artist: "Giuseppe Arcimboldo, c. 1590",
+        model: "18"
+    },
+    {
+        title: "David",
+        artist: "Michelangelo, 1501-1504",
+        model: "19"
+    },
+    {
+        title: "A Bar at the Folies-Bergère",
+        artist: "Édouard Manet, 1882",
+        model: "20"
+    },
+    {
+        title: "Open Window, Collioure | French Window at Collioure",
+        artist: "Henri Matisse, 1905 | 1914",
+        model: "21"
     }
 ];
 
