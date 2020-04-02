@@ -188,6 +188,41 @@ const data = [
         title: "Comtesse Daru",
         artist: "Jacques-Louis David, 1810",
         model: "38"
+    },
+    {
+        title: "What's your guess?",
+        artist: "",
+        model: "39"
+    },
+    {
+        title: "A trap",
+        artist: "",
+        model: "40"
+    },
+    {
+        title: "The Japanese Footbridge",
+        artist: "Claude Monet, 1899",
+        model: "41"
+    },
+    {
+        title: "The Calling of St Matthew",
+        artist: "Caravaggio, 1599-1600",
+        model: "42"
+    },
+    {
+        title: "White House photograph of the Situation Room",
+        artist: "",
+        model: "43"
+    },
+    {
+        title: "Skylines",
+        artist: "El Anatsui, 2008",
+        model: "44"
+    },
+    {
+        title: "Portrait of Amalie Zuckerkandl (unfinished)",
+        artist: "Gustav Klimt, 1917-1918",
+        model: "45"
     }
 ];
 
