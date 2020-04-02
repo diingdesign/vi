@@ -128,6 +128,41 @@ const data = [
         title: "Dowager in a Wheelchair",
         artist: "Philip Evergood, 1952",
         model: "26"
+    },
+    {
+        title: "The Key to Dreams",
+        artist: "René Magritte, 1927",
+        model: "27"
+    },
+    {
+        title: "The Son of Man",
+        artist: "René Magritte, 1964",
+        model: "28"
+    },
+    {
+        title: "American Rural Baroque",
+        artist: "Ralph Steiner, 1930",
+        model: "29"
+    },
+    {
+        title: "Obama won his presidency",
+        artist: "New York Times, 2008",
+        model: "30"
+    },
+    {
+        title: "Teenage Summer, the Fasting Version.",
+        artist: "New York Times, Aug 21, 2010",
+        model: "31"
+    },
+    {
+        title: "Madame X (Madame Pierre Gautreau)",
+        artist: "John Singer Sargent, 1883-1884",
+        model: "32"
+    },
+    {
+        title: "The Painter and the Buyer | Studio Wall",
+        artist: "Pieter Brueghel the Elder, c. 1565 | Richard Diebenkorn, 1963",
+        model: "33"
     }
 ];
 
