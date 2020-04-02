@@ -103,6 +103,31 @@ const data = [
         title: "Open Window, Collioure | French Window at Collioure",
         artist: "Henri Matisse, 1905 | 1914",
         model: "21"
+    },
+    {
+        title: "McLean, Virginia",
+        artist: "Joel Sternfeld, 1978",
+        model: "22"
+    },
+    {
+        title: "Time Transfixed",
+        artist: "René Magritte, 1938",
+        model: "23"
+    },
+    {
+        title: "The Furniture City Sets the Table for the World of Art",
+        artist: "Sarah Grant, 2009",
+        model: "24"
+    },
+    {
+        title: "Texas",
+        artist: "April 2008",
+        model: "25"
+    },
+    {
+        title: "Dowager in a Wheelchair",
+        artist: "Philip Evergood, 1952",
+        model: "26"
     }
 ];
 
