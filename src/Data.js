@@ -163,6 +163,31 @@ const data = [
         title: "The Painter and the Buyer | Studio Wall",
         artist: "Pieter Brueghel the Elder, c. 1565 | Richard Diebenkorn, 1963",
         model: "33"
+    },
+    {
+        title: "The Naked Maja",
+        artist: "Goya, c. 1795–1800",
+        model: "34"
+    },
+    {
+        title: "Benefits Supervisor Sleeping",
+        artist: "Lucian Freud, 1995",
+        model: "35"
+    },
+    {
+        title: "The Garden of Earthly Delights",
+        artist: "Hieronymus Bosch, c. 1500–1505",
+        model: "36"
+    },
+    {
+        title: "Dante and Virgil in Hell",
+        artist: "William-Adolphe Bouguereau, 1850",
+        model: "37"
+    },
+    {
+        title: "Comtesse Daru",
+        artist: "Jacques-Louis David, 1810",
+        model: "38"
     }
 ];
 
