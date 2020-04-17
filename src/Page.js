@@ -31,7 +31,7 @@ function Header() {
 
 function Start() {
   return (
-    <div className="container d-flex flex-row justify-content-center align-items-center init-page">
+    <div className="container d-flex flex-row justify-content-center align-items-center h-100">
       <Link to="1" role="button" className="btn btn-light btn-lg"><i class="fas fa-eye"></i></Link>
     </div>
   );
@@ -48,7 +48,7 @@ function EntityViewer() {
 function Page() {
   return (
     <Router>
-      <div className="h-100 w-100">
+      <div className="h-100 w-100 d-flex flex-column">
         <Switch>
           <Route exact path="/">
             <Start />
